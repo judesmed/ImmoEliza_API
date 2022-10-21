@@ -1,2 +1,6 @@
 fastapi==0.85.0
 uvicorn==0.18.3
+pandas==1.5.0
+numpy==1.23.3
+pickleshare==0.7.5
+sklearn==0.0
