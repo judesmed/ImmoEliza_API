@@ -4,6 +4,7 @@ from predict.prediction import Prediction
 from typing import Union
 from pydantic import BaseModel
 import json
+import os
 
 
 # self = Prediction()
@@ -33,7 +34,8 @@ class Properties(BaseModel):
 # json_file = y
 # print(Prediction().predict(json_file))
 
-app = FastAPI()
+PORT = os.environ.get("PORT", 9000)
+app = FastAPI(port=PORT)
 
 @app.get("/")
 def read_root():
