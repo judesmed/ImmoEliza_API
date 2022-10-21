@@ -4,11 +4,12 @@ FROM python:3.10
 # Create a folder "app" at the root of the image
 RUN mkdir /app
 
+# Copy all the files in the current directory in /app
+COPY . /app
+
 # Define /app as the working directory
 WORKDIR /app
 
-# Copy all the files in the current directory in /app
-COPY . /app
 
 # Update pip
 RUN pip install --upgrade pip
