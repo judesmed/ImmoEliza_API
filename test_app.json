@@ -1,0 +1,21 @@
+{
+  "data": {
+    "area": 130,
+    "property_type": "HOUSE",
+    "rooms_number": 3,
+    "zip_code": 1650,
+    "land_area": 0,
+    "garden": 1
+  ,
+    "garden_area": 30,
+    "equipped_kitchen": 0,
+    "full_address":"LKK",
+    "swimming_pool": 0,
+    "furnished": 0,
+    "open_fire": 0,
+    "terrace": 1,
+    "terrace_area": 10,
+    "facades_number": 2,
+    "building_state": "TO RENOVATE"
+  }
+}
